@@ -1,7 +1,7 @@
 import tweepy
 from textblob import TextBlob
 
-#keys hiding thing
+#obfuscate keys from code
 lines = []                  # Declare an empty list
 with open ('./keys/consumer_key.txt', 'rt') as in_file:  # Open file ./keys/consumer_keys.txt to enable reading of the data
     for line in in_file:  # loop over each line in in_file
