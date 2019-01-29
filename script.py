@@ -28,8 +28,8 @@ public_tweets = api.search(search_term)
 
 
 print('######################################################################')
-print("### Here is what people are saying about '"
-    + search_term + "' and how they are feeling ###")
+print("### Here is what people are saying about '" +
+    search_term + "' and how they are feeling ###")
 print('######################################################################')
 for tweet in public_tweets:
     print(tweet.text)
